@@ -17,10 +17,10 @@ const AppContent = () => {
   const { error } = useLoading();
   
   return (
-    <>
-      <div>{error}</div>
+    <div style={{ padding: 10 }}>
+      {error && <div className="error">{error}</div>}
       <MultiSelect searchData={searchCharacter}></MultiSelect>
-    </>
+    </div>
   );
 };
 

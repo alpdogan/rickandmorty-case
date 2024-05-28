@@ -45,9 +45,6 @@ const MultiSelect = ({ searchData }: MultiSelectArgs) => {
   const { loading, setLoading, setError } = useLoading();
 
   return (
-    <div style={{
-      padding: 10
-    }}>
       <AsyncSelect
         cacheOptions
         styles={multiSelectStyles}
@@ -60,8 +57,6 @@ const MultiSelect = ({ searchData }: MultiSelectArgs) => {
         placeholder="Karakter ara"
         formatOptionLabel={formatOptionLabel}
       />
-    </div>
-
   );
 };
 export { MultiSelect };
