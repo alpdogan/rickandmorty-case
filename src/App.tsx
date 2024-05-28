@@ -20,9 +20,8 @@ const AppContent = () => {
   
   return (
     <>
-      <div>{loading}</div>
-      <MultiSelect searchData={searchCharacter}></MultiSelect>
       <div>{error}</div>
+      <MultiSelect searchData={searchCharacter}></MultiSelect>
     </>
   );
 };

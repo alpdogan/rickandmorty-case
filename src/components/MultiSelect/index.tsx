@@ -42,7 +42,7 @@ export interface MultiSelectArgs {
 }
 
 const MultiSelect = ({ searchData }: MultiSelectArgs) => {
-  const { loading, error, setLoading, setError } = useLoading();
+  const { loading, setLoading, setError } = useLoading();
 
   return (
     <div style={{
