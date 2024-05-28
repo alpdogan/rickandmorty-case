@@ -1,5 +1,3 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import { MultiSelect } from './components/MultiSelect';
 import { searchCharacter } from './api/search';
@@ -16,7 +14,7 @@ const App = () => {
 };
 
 const AppContent = () => {
-  const { loading, error } = useLoading();
+  const { error } = useLoading();
   
   return (
     <>
