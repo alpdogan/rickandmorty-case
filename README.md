@@ -5,6 +5,8 @@
 ### `npm start`
 
 ## Demo
+### Demo Link: https://rickandmorty.alpdogan.co/
+
 ![screen-gif](./public/demo.gif)
 ## Case:
 Adcreative.ai frontend developer pozisyonu icin hazirladigimiz bu case'de sizden React.js kullanarak multi-select autocomplete component implement etmenizi istiyoruz.
